@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <?php require_once __DIR__ . '/../../../app/helpers.php'; ?>
         <link href="<?= base_url('assets/css/certificate-class-free.css') ?>" rel="stylesheet">
 </head>
 <body>
@@ -19,7 +20,7 @@
                     <div class="cert-free-header">
                         <div class="cert-free-header-left">
                             <div class="cert-free-logo-box">
-                                <img src="assets/Images/logo.png" alt="">
+                                <img src="<?= base_url('assets/Images/logo.png') ?>" alt="">
                             </div>
                             <div class="cert-free-motto">"Build your IT Skill"</div>
                         </div>
@@ -27,7 +28,7 @@
                             <div class="cert-free-kingdom">
                                 <div>KINGDOM OF CAMBODIA</div>
                                 <div>NATION&nbsp; RELIGION &nbsp;KING</div>
-                                <img src="assets/Images/border.png" alt="">
+                                <img src="<?= base_url('assets/Images/border.png') ?>" alt="">
                             </div>
                         </div>
                     </div>
